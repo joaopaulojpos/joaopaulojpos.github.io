@@ -2,7 +2,7 @@ function calculo(val1, val2) {
   valor_compra = val1;
   valor_entrada = val2;
 
-  var taxas = [4.8, 6.3, 7.8, 9.3, 10.8, 12.3, 13.8, 15.3, 16.8, 18.3, 19.8, 21.3];
+  var taxas = [6.20, 7.49, 6.69, 7.50, 10.29, 11.50, 12.80, 13.50, 14.70, 15.50, 16.50, 17.50];
   var valor_parcelas = [];
   var valor_total = [];
 
