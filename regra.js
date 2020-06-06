@@ -2,7 +2,9 @@ function calculo(val1, val2) {
   valor_compra = val1;
   valor_entrada = val2;
 
-  var taxas = [5.50, 8.50, 9.50, 10.50, 12.50, 13.50, 15.50, 16.50, 18.50, 19.50, 21.50, 22.50];
+  console.log(val1)
+
+  var taxas = [3.99, 5.16, 6.15, 7.12, 8.09, 9.04, 10.08, 11.01, 11.93, 12.83, 13.72, 14.60];
   let taxa_debito = 3.0;
   var valor_parcelas = [];
   var valor_total = [];
@@ -49,3 +51,16 @@ entrada.addEventListener("keyup", function () {
   val_entrada = this.value;
   calculo(val_compra, val_entrada);
 })
+
+function keyPressed(evt){
+  evt = evt || window.event;
+  var key = evt.keyCode || evt.which;
+  return String.fromCharCode(key); 
+}
+
+document.onkeypress = function(evt) {
+  var str = keyPressed(evt);
+  
+  if(str == ',' | str == '.')
+      alert("Por favor apague e digite apenas números");
+};
