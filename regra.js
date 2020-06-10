@@ -1,15 +1,15 @@
 function calculo(val1, val2) {
-  valor_compra = val1;
+  valor_compra = parseInt(val1);
   valor_entrada = val2;
-
-  console.log(val1)
 
   var taxas = [3.99, 5.16, 6.15, 7.12, 8.09, 9.04, 10.08, 11.01, 11.93, 12.83, 13.72, 14.60];
   let taxa_debito = 3.0;
   var valor_parcelas = [];
   var valor_total = [];
 
-  var valor = valor_compra - valor_entrada;
+  var valor = (valor_compra + 50) - valor_entrada;
+
+  console.log(typeof(valor_compra))
 
   //parte da taxa de débito
   let percentual_debito = (taxa_debito * valor) / 100;
