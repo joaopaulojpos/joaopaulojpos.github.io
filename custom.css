@@ -1,3 +1,10 @@
 cor_text{
     color: #bdbdbd;
 }
+
+body{
+    background-color: #219bfd;
+background-image: linear-gradient(315deg, #219bfd 0%, #8602cf 100%);
+
+    
+}
