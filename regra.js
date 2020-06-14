@@ -7,7 +7,7 @@ function calculo(val1, val2) {
   var valor_parcelas = [];
   var valor_total = [];
 
-  var valor = (valor_compra + 50) - valor_entrada;
+  var valor = (valor_compra + 25) - valor_entrada;
 
   console.log(typeof(valor_compra))
 
