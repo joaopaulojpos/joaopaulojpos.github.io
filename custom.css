@@ -1,3 +1,6 @@
-#table1{
-
+.separar{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: block;
+    border: none;
 }
